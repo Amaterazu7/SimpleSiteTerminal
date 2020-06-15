@@ -3,16 +3,24 @@ a {
 }
 
 body {
-    background-image: url('macbook.png');
+    background-image: url('macbook.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+}
+
+.marginBottomZero {
+  margin-bottom: 0.5% !important; 
+}
+
+.marginTopZero {
+  margin-top: 0.5% !important;
 }
 
 .window::before {
   content: ' ';
   display: block;
-  height: 5%;
-  background: #C6C6C6;
+  height: 47px;
+  background: rgb(53, 47, 47);
 }
 
 .window {
@@ -24,6 +32,7 @@ body {
     position: relative;
     margin: 0 auto;
     width: 75%;
+    height: 40%;
 }
 
 .window::after {
@@ -42,7 +51,7 @@ body {
 .terminal {
     margin: 20px;
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .terminal .command { 
@@ -147,7 +156,7 @@ body {
   line-height: 17px;
   animation: blink 0.8s infinite;
   width: 7px;
-  height: 15px;
+  height: 12px;
 }
 
 @keyframes blink {
