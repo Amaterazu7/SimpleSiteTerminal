@@ -32,7 +32,6 @@ body {
     position: relative;
     margin: 0 auto;
     width: 75%;
-    height: 40%;
 }
 
 .window::after {
